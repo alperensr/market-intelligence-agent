@@ -1,7 +1,7 @@
 import "dotenv/config";
 
 const COINGECKO_PRICE_URL =
-  "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd";
+  "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd&include_24hr_change=true";
 
 async function main(): Promise<void> {
   const apiKey = process.env.COINGECKO_API_KEY;
