@@ -17,3 +17,56 @@ main {
 h1 {
   margin-bottom: 0.5rem;
 }
+
+.demo-notice {
+  margin-top: 0;
+  color: #64748b;
+}
+
+.market-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.market-card {
+  padding: 1.25rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+}
+
+.coin-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.coin-heading h2,
+.price {
+  margin: 0;
+}
+
+.coin-heading span {
+  color: #64748b;
+}
+
+.price {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.change {
+  margin-bottom: 0;
+}
+
+.positive {
+  color: #15803d;
+}
+
+.negative {
+  color: #b91c1c;
+}
