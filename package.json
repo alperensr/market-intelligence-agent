@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx src/index.ts",
+    "dev:server": "tsx src/server.ts",
     "typecheck": "tsc --noEmit",
     "dev:web": "vite web",
     "build:web": "vite build web",
