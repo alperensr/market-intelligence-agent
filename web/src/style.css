@@ -23,11 +23,64 @@ h1 {
   color: #64748b;
 }
 
+.analysis-form {
+  margin-top: 2rem;
+}
+
+fieldset {
+  margin: 0 0 1rem;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.asset-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
+}
+
+.asset-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.65rem 1rem;
+  color: #ffffff;
+  background: #1d4ed8;
+  border: 0;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+.analysis-results {
+  margin-top: 2rem;
+}
+
+.status-message {
+  color: #475569;
+}
+
+.validation-message {
+  color: #b91c1c;
+  font-weight: 700;
+}
+
 .market-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
-  margin-top: 2rem;
 }
 
 .market-card {
